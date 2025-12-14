@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Booking</title>
+</head>
+<body>
+
+    <h2><u>Book a Car Service</u></h2>
+
+    <p>
+        Fill the form below to <b>book a car service</b> at
+        <i>AutoCare Hub</i>.
+    </p>
+
+    <form>
+
+        <label><b>Customer Name:</b></label><br>
+        <input type="text" name="name"><br><br>
+
+        <label><b>Email:</b></label><br>
+        <input type="email" name="email"><br><br>
+
+        <label><b>Car Model:</b></label><br>
+        <select name="car_model">
+            <option>Sedan</option>
+            <option>SUV</option>
+            <option>Hatchback</option>
+        </select><br><br>
+
+        <label><b>Select Service:</b></label><br>
+        <input type="radio" name="service"> Car Wash<br>
+        <input type="radio" name="service"> Engine Service<br>
+        <input type="radio" name="service"> Oil Change<br><br>
+
+        <label><b>Additional Services:</b></label><br>
+        <input type="checkbox"> Wheel Alignment<br>
+        <input type="checkbox"> Interior Cleaning<br><br>
+
+        <label><b>Preferred Date:</b></label><br>
+        <input type="date"><br><br>
+
+        <label><b>Address:</b></label><br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Book Service">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
