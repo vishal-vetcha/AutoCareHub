@@ -1,0 +1,10 @@
+ul, ol {
+    background-color: white;
+    padding: 15px;
+    width: 70%;
+    margin: auto;
+}
+
+li {
+    margin: 8px 0;
+}
